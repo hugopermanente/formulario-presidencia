@@ -1,0 +1,71 @@
+html {
+
+}
+
+body {
+    overflow: hidden!important;
+  } 
+  
+.painel {
+    display: flex;
+    width: 100%;
+    height: 720px;
+    background-color: beige;
+}
+.menu-lateral {
+    flex-grow: 0;
+    width: 20%;
+    height: 100%;
+    background-color:#CCCC99;
+    box-shadow: 10px 0px 10px #666633;
+    position: relative;
+    z-index: 1;
+}
+.menu-paginas {
+    background-color: #666633;
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+.area-paginas { 
+    flex-grow: 5;
+    background-color:white;
+}
+.icone-menu {
+    color: #666633;
+    font-size: 17px;
+}
+.nome-menu {
+    color: #7a7a45;
+    font-size: 17px;
+}
+
+ul {
+    list-style: none;
+}
+.lista-menu {
+    line-height: 2em;
+    position: absolute;
+    top: 45%;
+}
+.circulo {
+    background-image: url('https://image.flaticon.com/icons/png/512/23/23716.png');
+    display: inline-block;
+    background-size: 103%;
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000000;
+    background-color:#7a7a45;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+.pesquisa {
+    width: 25%;
+    height: 10px;
+    position: absolute;
+    left:70%;
+    top: 10%;
+}
